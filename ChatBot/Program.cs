@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Chatbot
 {
@@ -9,7 +8,8 @@ namespace Chatbot
         [STAThread]
         static void Main()
         {
-            ApplicationConfiguration.Initialize();
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new ChatbotForm());
         }
     }

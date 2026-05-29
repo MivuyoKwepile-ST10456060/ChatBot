@@ -6,12 +6,12 @@ namespace Chatbot
     public class Chatbot
     {
         private readonly UserProfile _user;
-        private readonly ChatbotResponses _responses;
+        private readonly ChatBotResponses _responses;
 
         public Chatbot(UserProfile user)
         {
             _user = user;
-            _responses = new ChatbotResponses();
+            _responses = new ChatBotResponses(user);
         }
 
         public void StartConversation()
