@@ -24,3 +24,4 @@ Technologies Used
 - NAudio (for audio playback)
 - Git & GitHub (version control & CI)
 
+<img width="1300" height="326" alt="image" src="https://github.com/user-attachments/assets/949c2cac-8d11-4b36-8895-1816f0e4cccf" />
