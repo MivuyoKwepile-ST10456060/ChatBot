@@ -14,7 +14,7 @@
 
 	<ItemGroup>
 		<None Update="welcome.wav">
-			<CopyToOutputDirectory>Copy if newer</CopyToOutputDirectory>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>
 
