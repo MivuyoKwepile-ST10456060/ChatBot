@@ -22,7 +22,7 @@ namespace Chatbot
             while (true)
             {
                 ConsoleHelper.WriteColored($"{_user.Name}: ", ConsoleColor.Yellow);
-                string? input = Console.ReadLine()?.Trim();
+                string? input = Console.ReadLine()?.Trim(); 
 
                 // Input validation: empty entry
                 if (string.IsNullOrEmpty(input))
